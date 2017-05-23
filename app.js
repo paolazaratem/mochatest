@@ -2,8 +2,12 @@
 var utilities;
 
 utilities = {
-  sayHello: function(){
-    return 'paola';
+  sayHello: function(input){
+    if(input.length === 1){
+      return true;
+    }else{
+      return 'paola';
+    }
   },
 
   checkOddString: function(input){
